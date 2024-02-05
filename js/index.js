@@ -14,6 +14,9 @@ const operate = (number1, number2, operator) => {
     case '*':
       return multiply(number1, number2)
     case '/':
+      if (number2 === 0) {
+        return 'Nice try'
+      }
       return divide(number1, number2)
     default:
       break
@@ -102,10 +105,18 @@ operatorButtons.forEach((button) => {
   button.addEventListener('click', () => pressOperator(button.innerText))
 })
 
+const countDecimals = (number) => {
+  return number.toString().split('.')[1].length
+}
+
 const pressEqual = () => {
   if (firstNumber !== '' && secondNumber !== '') {
     flag = false
     let result = operate(+firstNumber, +secondNumber, operator)
+    let hasDecimals = countDecimals(result)
+    if (hasDecimals > 4) result = result.toFixed(4)
+    if (result > 99999999999) result = 99999999999
+    console.log(hasDecimals)
     display.innerText = result
     firstNumber = result
     secondNumber = ''

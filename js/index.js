@@ -28,7 +28,6 @@ let secondNumber = ''
 let operator = ''
 let flag = false
 let displayFlag = false
-let trys = '12.5'
 
 const display = document.querySelector('.display')
 const numberButtons = Array.from(document.querySelectorAll('.number-button'))

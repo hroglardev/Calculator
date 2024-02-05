@@ -24,6 +24,7 @@ let firstNumber = ''
 let secondNumber = ''
 let operator = ''
 let flag = false
+let displayFlag = false
 
 const display = document.querySelector('.display')
 const numberButtons = Array.from(document.querySelectorAll('.number-button'))
@@ -55,8 +56,9 @@ const equal = document.querySelector('.equal-button')
  */
 
 const updateDisplay = (pressedNumber) => {
-  if (display.innerText === '0') {
+  if (display.innerText === '0' || displayFlag) {
     display.innerText = pressedNumber
+    displayFlag = false
   } else {
     display.innerText += pressedNumber
   }
@@ -87,14 +89,13 @@ numberButtons.forEach((button) => {
 })
 
 const pressOperator = (pressedOperator) => {
-  if (!flag) {
-    clearDisplay()
-    operator = pressedOperator
-    flag = true
-  } else {
+  if (flag) {
+    displayFlag = true
     pressEqual()
-    flag = true
   }
+  operator = pressedOperator
+  flag = true
+  displayFlag = true
 }
 
 operatorButtons.forEach((button) => {
@@ -108,6 +109,7 @@ const pressEqual = () => {
     display.innerText = result
     firstNumber = result
     secondNumber = ''
+    console.log(operator)
   }
 }
 

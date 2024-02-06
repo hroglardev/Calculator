@@ -19,6 +19,7 @@ The calculator project has been instrumental in expanding my knowledge of web de
 
 <img src="./docs-images/1.JPG" alt="The JavaScript code starts by defining four functions (add, subtract, multiply, and divide) to perform basic arithmetic operations on two numbers.
 These functions are utilized in the operate function, which takes two numbers and an operator as parameters and returns the result of the corresponding operation.">
+
 The JavaScript code starts by defining four functions (add, subtract, multiply, and divide) to perform basic arithmetic operations on two numbers.
 These functions are utilized in the operate function, which takes two numbers and an operator as parameters and returns the result of the corresponding operation.
 

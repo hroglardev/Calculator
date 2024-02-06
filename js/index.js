@@ -50,13 +50,9 @@ const updateDisplay = (pressedNumber) => {
   }
 }
 
-const clearDisplay = () => {
+const clearValues = () => {
   display.innerText = '0'
   flag = false
-}
-
-const clearValues = () => {
-  clearDisplay()
   firstNumber = ''
   secondNumber = ''
   operator = ''
@@ -83,7 +79,8 @@ operatorButtons.forEach((button) => {
 })
 
 const countDecimals = (number) => {
-  return number.toString().split('.')[1].length
+  let decimalPart = number.toString().split('.')[1]
+  return decimalPart ? decimalPart.length : 0
 }
 
 const pressEqual = () => {

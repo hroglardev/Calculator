@@ -53,6 +53,6 @@ Checkout my other projects in order to see my evolution:
   <li><a href="https://github.com/hroglardev/Odin-landing-page" target="_blank">Landing Page</a></li>
   <li><a href="https://github.com/hroglardev/Rock-Paper-Scissors-TOP-Console" target="_blank">Console Rock, Paper, Scissors</a></li>
   <li><a href="https://github.com/hroglardev/Rock-Paper-Scissors-TOP" target="_blank">Rock, Paper, Scissors</a></li>
-  <li><a href="https://github.com/hroglardev/Etch-a-Sketch" target="_blank"></a>Etch a Sketch</li>
-  <li><a href="https://github.com/hroglardev/Calculator" target="_blank"></a>You are here</li>
+  <li><a href="https://github.com/hroglardev/Etch-a-Sketch" target="_blank">Etch a Sketch</a></li>
+  <li><a href="https://github.com/hroglardev/Calculator" target="_blank">You are here</a></li>
 </ol>

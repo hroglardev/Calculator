@@ -15,6 +15,10 @@ The calculator project has been instrumental in expanding my knowledge of web de
   <li>State management through the use of flags. </li>
 </ul>
 
+# Want to see it in action?
+
+<a href="https://hroglardev.github.io/Calculator/" target="_blank">Click here</a>
+
 # Explanation of the code
 
 <img src="./docs-images/1.JPG" alt="The JavaScript code starts by defining four functions (add, subtract, multiply, and divide) to perform basic arithmetic operations on two numbers.
@@ -39,10 +43,6 @@ The pressOperator function and the event listeners for operator buttons (operato
 <img src="./docs-images/5.JPG" alt="The pressEqual function, triggered by the equal button, performs the calculation using the operate function, handles decimal places, and updates the display.">
 
 The pressEqual function, triggered by the equal button, performs the calculation using the operate function, handles decimal places, and updates the display.
-
-# Want to see it in action?
-
-<a href="https://hroglardev.github.io/Calculator/" target="_blank">Click here</a>
 
 # Want to track my progress?
 

@@ -42,7 +42,7 @@ The pressEqual function, triggered by the equal button, performs the calculation
 
 # Want to see it in action?
 
-<a href="https://hroglardev.github.io/Calculator/">Click here</a>
+<a href="https://hroglardev.github.io/Calculator/" target="_blank">Click here</a>
 
 # Want to track my progress?
 
@@ -55,4 +55,7 @@ Checkout my other projects in order to see my evolution:
   <li><a href="https://github.com/hroglardev/Rock-Paper-Scissors-TOP" target="_blank">Rock, Paper, Scissors</a></li>
   <li><a href="https://github.com/hroglardev/Etch-a-Sketch" target="_blank">Etch a Sketch</a></li>
   <li><a href="https://github.com/hroglardev/Calculator" target="_blank">You are here</a></li>
+  <li><a href="https://github.com/hroglardev/Sign-up-form-TOP" target="_blank">Sign up form</a></li>
+  <li><a href="https://github.com/hroglardev/Dashboard" target="_blank">Dashboard</a></li>
+  <li><a href="https://github.com/hroglardev/Library" target="_blank">Library</a></li>
 </ol>

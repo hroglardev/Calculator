@@ -40,6 +40,7 @@ The clearValues fuction's job is to reset the display to 0 and to reset all stat
 <img src="./docs-images/4.JPG" alt="The pressOperator function and the event listeners for operator buttons (operatorButtons) handle the activation of operators. When an operator is pressed, it triggers the pressOperator function, setting the operator and updating the calculator state.">
 
 The pressOperator function and the event listeners for operator buttons (operatorButtons) handle the activation of operators. When an operator is pressed, it triggers the pressOperator function, setting the operator and updating the calculator state.
+
 <img src="./docs-images/5.JPG" alt="The pressEqual function, triggered by the equal button, performs the calculation using the operate function, handles decimal places, and updates the display.">
 
 The pressEqual function, triggered by the equal button, performs the calculation using the operate function, handles decimal places, and updates the display.
